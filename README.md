@@ -1,4 +1,4 @@
-#
+# Nexcent
 # UI Project with Vite, React, and Tailwind CSS
 
 This project is a simple UI application built using **Vite**, **React**, and **Tailwind CSS**. The goal of this project is to showcase the power and flexibility of these modern tools for fast and efficient development.
@@ -20,7 +20,7 @@ To get a local copy of this project running on your machine, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/your-project-name.git
-   cd your-project-name
+   git clone https://github.com/bagheri-dev/Nexcent.git
+   cd Nexcent
     npm install
     npm run dev
