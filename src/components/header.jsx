@@ -1,5 +1,5 @@
 import BtnPage from "./btnPage";
-import Logo from "/public/images/svgs/logo.svg";
+import Logo from "/images/svgs/logo.svg";
 export default function Header() {
   return (
     <header>

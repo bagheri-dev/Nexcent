@@ -4,7 +4,7 @@ export default function SiteFooter() {
   return (
     <section className="flex justify-between items-center mb-5">
       <div className="w-full">
-        <img className="w-full" src="/images/svgs/pana.svg" alt="" />
+        <img className="w-full" src="images/rafiki.png" alt="" />
       </div>
       <div className="w-full space-y-6">
         <h2 className="text-4xl font-bold text-[#4D4D4D]">How to design your site footer like we did</h2>

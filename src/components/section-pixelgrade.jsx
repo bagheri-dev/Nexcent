@@ -4,7 +4,7 @@ export default function Pixelgrade() {
   return (
     <section className="flex gap-10 items-center mb-5">
       <div className="w-full">
-        <img className="w-full" src="/images/svgs/Frame 35.svg" alt="" />
+        <img className="w-full" src="images/pana.png" alt="" />
       </div>
       <div className="w-full space-y-8">
         <h2 className="text-4xl font-bold text-[#4D4D4D]">The unseen of spending three years at Pixelgrade</h2>

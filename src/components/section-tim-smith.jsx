@@ -9,7 +9,7 @@ export default function TimSmith() {
   return (
     <section className="flex items-center py-5 gap-5 mb-5">
       <div className="w-6/12">
-        <img className="w-full" src="/public/images/svgs/tesla.svg" alt="" />
+        <img className="w-full" src="images/tesla-modern-car_1301048-492.jpg" alt="" />
       </div>
       <div className="w-full space-y-5">
         <p className="text-[#717171]">

@@ -1,4 +1,9 @@
-import Logo from "/public/images/logo-site.png";
+import { AiOutlineYoutube } from "react-icons/ai";
+import Logo from "/images/logo-site.png";
+import { FiTwitter } from "react-icons/fi";
+import { IoIosGlobe } from "react-icons/io";
+import { FaInstagram } from "react-icons/fa";
+import { BsSend } from "react-icons/bs";
 
 export default function Footer() {
   return (
@@ -13,11 +18,11 @@ export default function Footer() {
             <p>
               Copyright © 2020 Nexcent ltd. <br /> All rights reserved
             </p>
-            <div className="flex gap-5">
-              <img src="/images/svgs/Social-insta.svg" alt="" />
-              <img src="/images/svgs/Social-internet.svg" alt="" />
-              <img src="/images/svgs/Social-twitter.svg" alt="" />
-              <img src="/images/svgs/Social-youtube.svg" alt="" />
+            <div className="flex gap-5 text-xl">
+              <FaInstagram />
+              <IoIosGlobe />
+              <FiTwitter />
+              <AiOutlineYoutube />
             </div>
           </div>
           <div className="flex justify-between w-full">
@@ -69,7 +74,7 @@ export default function Footer() {
                   type="text"
                   placeholder="Your email address"
                 />
-                <img src="/images/svgs/send.svg" alt="send" />
+                <BsSend />
               </div>
             </div>
           </div>

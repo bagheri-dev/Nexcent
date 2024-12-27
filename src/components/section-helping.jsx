@@ -1,3 +1,7 @@
+import { BsSuitClub } from "react-icons/bs";
+import { FaRegUser } from "react-icons/fa";
+import { MdOutlineEmojiEvents, MdOutlinePayments } from "react-icons/md";
+
 export default function Helping () {
     return (
         <section className="flex items-center justify-between py-7 mb-5">
@@ -7,28 +11,28 @@ export default function Helping () {
             </div>
             <div className="w-full grid grid-cols-2 gap-5">
                 <div className="flex items-center gap-5">
-                    <img src="/images/svgs/Icon-members.svg" alt="" />
+                <FaRegUser className="text-4xl" />
                     <div>
                         <p className="text-2xl text-[#4D4D4D]">2,245,341</p>
                         <span className="text-[#717171]">Members</span>
                     </div>
                 </div>
                 <div className="flex items-center gap-5">
-                    <img src="/images/svgs/Icon-clubs2.svg" alt="" />
+                <BsSuitClub className="text-4xl" />
                     <div>
                         <p className="text-2xl text-[#4D4D4D]">46,328</p>
                         <span className="text-[#717171]">Clubs</span>
                     </div>
                 </div>
                 <div className="flex items-center gap-5">
-                    <img src="/images/svgs/Icon-event-bookings.svg" alt="" />
+                <MdOutlineEmojiEvents className="text-4xl" />
                     <div>
                         <p className="text-2xl text-[#4D4D4D]">828,867</p>
                         <span className="text-[#717171]">Event Booking</span>
                     </div>
                 </div>
                 <div className="flex items-center gap-5">
-                    <img src="/images/svgs/Icon-payments.svg" alt="" />
+                <MdOutlinePayments className="text-4xl" />
                     <div>
                         <p className="text-2xl text-[#4D4D4D]">1,926,436</p>
                         <span className="text-[#717171]">Payments</span>
